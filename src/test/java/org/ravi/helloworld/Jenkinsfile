@@ -1,4 +1,4 @@
 node {
     def rootDir = pwd()
-    def example = load "${rootDir}@script/Example.Groovy "
+    def example = load "${rootDir}@script/Example.Groovy"
 }
