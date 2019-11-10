@@ -1,4 +1,4 @@
 node {
-    def rootDir = pwd()
+    def rootDir = "H:\github\MyJavaProject\src\test\java\org\ravi\helloworld"
     def example = load "${rootDir}@script/Example.Groovy "
 }
