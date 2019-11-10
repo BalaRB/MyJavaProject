@@ -1,4 +1,4 @@
 node {
-    def rootDir = "H:\github\MyJavaProject\src\test\java\org\ravi\helloworld"
+    def rootDir = "src/test/java/org/ravi/helloworld/Jenkinsfile"
     def example = load "${rootDir}@script/Example.Groovy "
 }
