@@ -1,0 +1,6 @@
+node {
+    // first repository
+    checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: 'subdirectory1']], submoduleCfg: [], userRemoteConfigs: [[url: 'repo1.git']]])
+    // run first script
+    load 'src/Jenkinsfile'
+}
